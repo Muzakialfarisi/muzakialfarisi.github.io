@@ -1,0 +1,26 @@
+.jumbotron {
+    padding-top: 100px;
+    background:linear-gradient(#3071e7, #ffffff);
+}
+
+#project {
+    background-color: #a2d9ff;
+}
+
+footer {
+    background-color: #0d6efd;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 4rem;
+    height: 30px;
+    word-spacing: 2px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+section {
+    padding-top: 100px;
+}
