@@ -23,7 +23,7 @@
     <!--Navbar-->
     <nav
       class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top"
-      style="background-color: #4380b1"
+      style="background-color: #4380b1" data-aos="fade-down"
     >
       <div class="container">
         <a class="navbar-brand" href="#">Muzakki Alfarisi</a>
@@ -73,7 +73,7 @@
     <!-- End Jumbotron -->
     <!-- About -->
     <section id="about">
-      <div class="container" data-aos="fade-in">
+      <div class="container" data-aos="zoom-in-up" >
         <div class="row text-center mb-5">
           <div class="col">
             <h2>About Me</h2>
@@ -93,7 +93,7 @@
     <!-- End About -->
     <!-- Project -->
     <section id="project">
-      <div class="container">
+      <div class="container"  >
         <div class="row text-center mb-5 ">
           <div class="col">
               <h2>My Projects</h2>
@@ -101,7 +101,7 @@
         </div>
         <div class="row">
           <div class="col-md-4 mb-4">
-            <div class="card">
+            <div class="card" data-aos="flip-right" data-aos-duration="500" data-aos-delay="100">
               <img src="projects/1.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-text">First Project a Application Manajemen data company.</p>
@@ -109,7 +109,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-4">
-            <div class="card">
+            <div class="card" data-aos="flip-right" data-aos-duration="500" data-aos-delay="200">
               <img src="projects/2.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-text">Second Project a Application Manajemen data company.</p>
@@ -117,7 +117,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-4">
-            <div class="card">
+            <div class="card" data-aos="flip-right" data-aos-duration="500" data-aos-delay="300">
               <img src="projects/3.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-text">Third Project a Application Manajemen data company.</p>
@@ -131,7 +131,7 @@
     <!-- End Project -->
     <!-- Contact Me -->
     <section id="contact">
-      <div class="container">
+      <div class="container" data-aos="zoom-in-up">
         <div class="row text-center">
           <div class="col">
             <h2>Contact Me</h2>
@@ -174,6 +174,11 @@
       <p>Created with <a href="https://www.instagram.com/muzakialfarizii/" class="text-white">Muzakki Alfarisi</a>2022</p>
     </footer>
     <!-- end footer -->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
     <script>
       const scriptURL = "https://script.google.com/macros/s/AKfycbxIquScRFnYDW-YuLqZ-lzpON7kzyy3hFlLOVrcdCxthjeE8ln44-uF6ujl8osSUf0w/exec";
