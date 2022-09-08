@@ -1,3 +1,17 @@
+body {
+    font-family: "open sans" sans-serif;
+}
+
+
+nav {
+    background-color: #4380b1;
+}
+
+nav ul li:hover {
+    text-decoration: underline;
+    border-radius: 10px;
+}
+
 .jumbotron {
     padding-top: 100px;
     background:linear-gradient(#3071e7, #ffffff);
